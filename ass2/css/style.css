@@ -1,0 +1,406 @@
+/**header*/
+/*.header {
+  background: url('../img/header.jpg') no-repeat center top / cover;
+  padding: 50px;
+  height: 910px;
+  opacity: 95%;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  /*padding-top: 57px;*/
+  /*padding: 30px;*/
+  /*align-items: center;
+}
+/*CLOSE*/
+/*header -> container -> a and .tel*/
+/*header a {
+  color: #fff;
+  text-align: right;
+}
+
+.tel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+  /*margin-left: auto;*/
+  letter-spacing: 0.1em;
+  margin-left: 500px;
+  text-align: right;*/
+  /* margin-right: 11px; */
+}
+/*CLOSE*/
+
+/*header -> container -> nav -> menu*/
+/*.menu {
+  display: flex;
+  /*padding: 50px;*/
+}*/
+
+/*.menu li a {
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  transition: 0.3s ease;
+  scroll-behavior: smooth;
+
+}
+
+a:hover {
+  color: #B04B1F;
+  /*background-color: #947B16;*/
+}
+
+/*.menu li {
+  margin-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*CLOSE*/
+
+/*header -> container -> mainText*/
+/*.mainText {
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+.mainText p {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  color: sandybrown;
+}
+
+.mainText h1 {
+  font-size: 90px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 585px;
+  letter-spacing:  0.02em;
+  color: #fff;
+  text-align: left;
+
+}
+
+/*header -> container -> mainText -> btn*/
+/*.btn {
+  /*background-color: brown;
+  opacity: transparent;*/
+  /*display: block;
+  font-size: 17px;
+  font-family: 'Montserrat Medium', sans-serif;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  margin-top: 100px;
+  /*margin-bottom: 50px;*/
+}
+/*.btn:hover {
+  background: #fff;
+}
+/*CLOSE*/
+
+
+/*.about_us {
+  background: url('../img/background_for_text.jpg') no-repeat center top / cover
+}
+.text_about_us {
+margin-right: 50px;
+  margin-left: 20px;
+}
+
+.text_about_us p {
+  word-spacing: 0.3em;
+  letter-spacing: 0.1em;
+  font-family: italic;
+  font-size: 20px;
+  color: white;
+  font-family: "Montserrat Medium";
+}
+.about_info {
+  display: flex;
+  justify-content: space-between;
+
+}
+#about_h2 {
+  text-align: center;
+}
+
+.background_for {
+  background: url('../img/background_menu.jpg') no-repeat center top / cover;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #000;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 80px;
+  margin-bottom:  58px;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*section about*/
+
+/*section {
+  padding-top: 90px;
+}
+
+#about {
+  /*margin-top: 10px;*/
+  /*background: url('../img/background_menu.jpg') no-repeat center top / cover;*/
+  /*display: flex;*/
+  /*height: 800px;
+}
+
+/*.main_info {
+  display: flex;
+  justify-content: space-between;
+  /*overflow: auto;*/
+  /*background: url('../img/brown.png') no-repeat center;*/
+  /*background-color: #381509;
+  height: 400px;
+  /*margin: 0;
+  padding: 0;*/
+}
+/*.text_about_us{
+}
+
+/*main2*/
+/*.quotation1 {
+  display: flex;
+  justify-content: space-between;
+  background: url('../img/background_for_text.jpg');
+  /*overflow: auto;*/
+  /*background: url('../img/brown.png') no-repeat center;*/
+  /*height: 600px;
+}
+
+.about2_text {
+  display: block;
+}
+
+.about2_text h4 {
+  margin: 40px;
+  color: white;
+  font-size: 20px;
+  padding-left: 110px;
+}
+.about2_text h3 {
+  margin: 40px;
+  color: white;
+  padding-left: 110px;
+  font-size: 25px;
+}
+
+.about2_text h2 {
+  color: white;
+  font-size: 320%;
+  padding-right: 70px;
+}
+
+.picture {
+  padding: 40px;
+  margin-top: 70px;
+  height: 400px;
+  width: 550px;
+}
+
+#about2_h2 {
+  text-align: center;
+  color: white;
+}
+
+.about3 {
+  height: 2000px;
+}
+
+.main_info3 {
+  display: flex;
+  justify-content: space-between;
+  /*overflow: auto;*/
+  /*background: url('../img/brown.png') no-repeat center;*/
+  /*background: url('../img/background_for_text.jpg') no-repeat center top / cover;;
+  height: 550px;
+}
+
+
+.picture2 {
+  padding: 40px;
+  padding-right: 50px;
+  height: 500px;
+  width: 550;
+  /*text-align: center;*/
+}
+
+/*.about3_text {
+  color: white;
+  font-family:"Montserrat Medium";
+}
+
+.about3_text h3 {
+  text-transform: uppercase;
+  color: white;
+  font-family: Montserrat;
+  font-size: 70px;
+  padding: 25px;
+  text-align: left;
+}
+
+}
+
+/**/
+/*#about_cups {
+  margin-top: 165px;
+}
+*/
+/*#about_h2 {
+  text-align: center;
+}
+
+.about_picture {
+  margin: 35px;
+}
+
+/*#about_img {
+  margin-right: 15px;
+}*/
+
+/*.about_text p {
+  color: #EC6C9B;
+  background: url('../img/cafe4.jpg') no-repeat;
+}*/
+
+/*CLOSE*/
+
+/*section menu*/
+/*.sec_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec_menu h3 {
+  text-align: center;
+}
+
+.sec_menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 200 px;
+}
+
+.sec_menu a:hover {
+  background: saddlebrown;
+}
+
+/*CLOSE*/
+
+/*footer*/
+/*.footer {
+  background-color: saddlebrown;
+  height: 200px;
+  background: url('../img/footer.png') no-repeat center top / cover;
+  opacity: 90%;}
+
+.footer-text{
+  font-size: medium;
+  font-family: Montserrat;
+}
+/*CLOSE*/
+
+/*#logo {*/
+/*  margin-left: 1000px;*/
+/*}*/
+/*#logo {*/
+/*  margin-left: 1000px;*/
+/*}*/
+
+/*.body_cof {
+  height: 900px;
+  padding: 50px;
+}
+.body_choice {
+  height: auto;
+  padding: 80px;
+}
+
+#text_cof {
+  text-align: center;
+  color: white;
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.row2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row3{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row4{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_cof h4 {
+  color: white;
+  text-align: center;
+}
+
+.btn_class {
+  text-align: center;
+  padding: 70px;
+  margin-bottom: 50px;
+}
+
+.btn_cof {
+  /*display: block;*/
+  /*font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: white;
+}
+-->
